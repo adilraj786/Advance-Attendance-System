@@ -2,14 +2,35 @@
 
 ### Enterprise-Grade Campus Attendance & Academic Intelligence Platform
 
-<p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+</p>
 
-<p align="center"> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" alt="Cloudinary"/> <img src="https://img.shields.io/badge/TanStack_Router-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Router"/> <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA"/> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" alt="Cloudinary"/>
+  <img src="https://img.shields.io/badge/TanStack_Router-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Router"/>
+  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA"/>
+</p>
 
-<p align="center"> <a href="https://github.com/adilraj786/Advance-Attendance-System/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"/> </a> <a href="https://github.com/adilraj786/Advance-Attendance-System/stargazers"> <img src="https://img.shields.io/github/stars/adilraj786/Advance-Attendance-System?style=flat-square" alt="GitHub Stars"/> </a> <a href="https://github.com/adilraj786/Advance-Attendance-System/network/members"> <img src="https://img.shields.io/github/forks/adilraj786/Advance-Attendance-System?style=flat-square" alt="GitHub Forks"/> </a> </p>
+<p align="center">
+  <a href="https://github.com/adilraj786/Advance-Attendance-System/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"/>
+  </a>
+  <a href="https://github.com/adilraj786/Advance-Attendance-System/stargazers">
+    <img src="https://img.shields.io/github/stars/adilraj786/Advance-Attendance-System?style=flat-square" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/adilraj786/Advance-Attendance-System/network/members">
+    <img src="https://img.shields.io/github/forks/adilraj786/Advance-Attendance-System?style=flat-square" alt="GitHub Forks"/>
+  </a>
+</p>
+
 ---
 
-### 📌 Table of Contents
+## 📌 Table of Contents
 
 * 🏛️ [Executive Overview](#-executive-overview)
 * 📐 [System Architecture](#-system-architecture)
@@ -22,6 +43,7 @@
 * 🚢 [Production Deployment](#-production-deployment)
 * 🤝 [Contributing](#-contributing--code-standards)
 * 📄 [License](#-license)
+
 ---
 
 ## 🏛 Executive Overview
@@ -185,13 +207,13 @@ studatt/
 └── vite.config.ts
 ```
 
-*Note: The structure above reflects the supplied project outline. Verify it against the actual repository before treating it as an exact file inventory.*
+> **Note:** Verify this directory structure against your actual repository before publishing.
 
 ---
 
 ## 🔑 API Keys, Secrets & Configuration Guide
 
-To run the project locally, configure your own Firebase and Cloudinary accounts. Never commit private credentials or production secrets to GitHub.
+Configure your own Firebase and Cloudinary accounts before running the project. Never commit private credentials or production secrets to GitHub.
 
 ### 1. Firebase Database & Authentication
 
@@ -200,9 +222,9 @@ To run the project locally, configure your own Firebase and Cloudinary accounts.
 **Services:** Firebase Authentication and Cloud Firestore.
 
 1. Open the [Firebase Console](https://console.firebase.google.com/) and create a project.
-2. Register a web application in **Project Settings → General → Your Apps**.
+2. Register a web application under **Project Settings → General → Your Apps**.
 3. Enable Cloud Firestore and configure appropriate database security rules.
-4. Enable the authentication methods required by the application.
+4. Enable the authentication methods required by your application.
 5. Add the relevant Firebase configuration values to your local `.env` file.
 
 ### 2. Cloudinary Media & Document Storage
@@ -216,7 +238,7 @@ To run the project locally, configure your own Firebase and Cloudinary accounts.
 3. Configure an upload preset under **Settings → Upload → Upload Presets**.
 4. Add the required values to your `.env` file.
 
-**Security note:** Do not expose your Cloudinary API secret in browser-side code. For direct browser uploads, use a carefully restricted unsigned upload preset or implement signed uploads through a trusted backend.
+**Security note:** Never expose your Cloudinary API secret in browser-side code. Use a restricted unsigned upload preset or implement signed uploads through a trusted backend.
 
 ### 3. Environment Variables Setup
 
@@ -243,7 +265,7 @@ VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name
 VITE_CLOUDINARY_UPLOAD_PRESET=your_upload_preset
 ```
 
-Only add variables that your source code actually reads. In Vite, variables prefixed with `VITE_` are bundled for client-side access, so **never store private API secrets in them**.
+Only include variables your source code actually reads. In Vite, variables prefixed with `VITE_` are exposed to client-side code, so **never store private API secrets in them**.
 
 ---
 
@@ -266,7 +288,7 @@ The application is designed around role-specific workflows for students, teacher
 | Self-registration        |    ✅    |    ❌    |  ❌  |   ❌   |    ✅   |
 | Generate hall tickets    |    ✅    |    ❌    |  ❌  |   ✅   |    ❌   |
 
-*Actual permissions depend on the application's implemented authorization logic and database security rules.*
+*Actual permissions depend on the implemented authorization logic and database security rules.*
 
 ---
 
@@ -303,7 +325,7 @@ The application is designed around role-specific workflows for students, teacher
 
 ### Prerequisites
 
-* [Node.js](https://nodejs.org/) — use a version compatible with the project dependencies.
+* [Node.js](https://nodejs.org/) — use a version compatible with your project dependencies.
 * npm, included with Node.js.
 * A Firebase project.
 * A Cloudinary account if media uploads are enabled.
@@ -313,11 +335,9 @@ The application is designed around role-specific workflows for students, teacher
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/adilraj786/Advance-Attendance-System.git
+cd Advance-Attendance-System
 ```
-
-Replace the repository URL and directory with your actual project details.
 
 **2. Install dependencies**
 
@@ -357,7 +377,7 @@ npm run preview
 
 ## 🗄 Firestore Schema & Data Collections
 
-The supplied project outline references the following Firestore collections.
+The following collections are referenced in the supplied project outline.
 
 | Collection           | Example Fields                                                                                  | Purpose                    |
 | -------------------- | ----------------------------------------------------------------------------------------------- | -------------------------- |
@@ -368,7 +388,7 @@ The supplied project outline references the following Firestore collections.
 | `timetable_slots`    | `day`, `timeSlot`, `course`, `division`, `room`, `subjectCode`, `facultyName`                   | Lecture and lab scheduling |
 | `live_session`       | `slotId`, `subject`, `room`, `token`, `secondsRemaining`, `active`                              | Active attendance sessions |
 
-*Collection names and fields should be checked against the actual Firestore implementation.*
+*Verify collection names and fields against your actual Firestore implementation.*
 
 ---
 
@@ -409,18 +429,15 @@ Contributions and improvements are welcome.
 
 ## 📄 License
 
-This project is distributed under the **MIT License**. See the [`LICENSE`](LICENSE) file for details.
+This project is intended to use the **MIT License**. See the [`LICENSE`](LICENSE) file for details.
 
-If the repository does not already contain a `LICENSE` file, add the full MIT License text before describing the project as officially MIT-licensed.
+If the repository does not contain a `LICENSE` file with the full MIT License text, add it before presenting the project as officially MIT-licensed.
 
 ---
-# 👨‍💻 Author
+
+## 👨‍💻 Author
 
 <p align="center">
-  <strong>Adil Raj</strong>
-  <br>
-  Software Engineering Aspirant | Full-Stack Developer | AI & Cybersecurity | Building Scalable Software & Real-World Solutions
-  <br><br>
   <a href="https://github.com/adilraj786">
     <img src="https://img.shields.io/badge/GitHub-adilraj786-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
@@ -433,6 +450,5 @@ If the repository does not already contain a `LICENSE` file, add the full MIT Li
 ---
 
 <p align="center">
-  <strong>© MIT 2026 Adil Raj</strong>
-  <br>
+  <strong>© 2026 Adil Raj</strong>
 </p>
