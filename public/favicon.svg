@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#93C5FD" />
+    </linearGradient>
+  </defs>
+  
+  <!-- App Icon Background -->
+  <rect width="64" height="64" rx="16" fill="url(#brandGrad)" />
+  
+  <!-- Smart Attendance Badge / QR Shield Symbol -->
+  <path d="M32 12L48 20V32C48 42 41 50 32 54C23 50 16 42 16 32V20L32 12Z" fill="#1E293B" stroke="url(#accentGrad)" stroke-width="2.5" stroke-linejoin="round" />
+  
+  <!-- Checkmark / Attendance Verification Spark -->
+  <path d="M25 32L30 37L39 27" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

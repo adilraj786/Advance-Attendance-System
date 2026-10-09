@@ -1,0 +1,23 @@
+{
+  "short_name": "Smart Attendance",
+  "name": "Smart Attendance Management System",
+  "description": "Enterprise QR Attendance System for Academic Campuses",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0B0F19",
+  "theme_color": "#3B82F6",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/"
+}
