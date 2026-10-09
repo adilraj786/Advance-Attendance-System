@@ -2,36 +2,11 @@
 
 ### Enterprise-Grade Campus Attendance & Academic Intelligence Platform
 
-<p align="left">
-  <a href="https://react.dev/">
-    <img src="https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  </a>
-  <a href="https://www.typescriptlang.org/">
-    <img src="https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  </a>
-  <a href="https://tailwindcss.com/">
-    <img src="https://img.shields.io/badge/Tailwind_CSS-v4.2.1-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  </a>
-  <a href="https://firebase.google.com/">
-    <img src="https://img.shields.io/badge/Firebase-Firestore_&_Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  </a>
-  <a href="https://tanstack.com/router">
-    <img src="https://img.shields.io/badge/TanStack_Router-File_Based-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Router" />
-  </a>
-  <a href="https://vite.dev/">
-    <img src="https://img.shields.io/badge/Vite-8.2.0-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  </a>
-  <a href="https://cloudinary.com/">
-    <img src="https://img.shields.io/badge/Cloudinary-Media_Storage-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" alt="Cloudinary" />
-  </a>
-  <a href="https://www.npmjs.com/">
-    <img src="https://img.shields.io/badge/npm-Package_Manager-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-2EA44F?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License" />
-  </a>
-</p>
+<p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/> </p>
 
+<p align="center"> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" alt="Cloudinary"/> <img src="https://img.shields.io/badge/TanStack_Router-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Router"/> <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA"/> </p>
+
+<p align="center"> <a href="https://github.com/adilraj786/Advance-Attendance-System/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"/> </a> <a href="https://github.com/adilraj786/Advance-Attendance-System/stargazers"> <img src="https://img.shields.io/github/stars/adilraj786/Advance-Attendance-System?style=flat-square" alt="GitHub Stars"/> </a> <a href="https://github.com/adilraj786/Advance-Attendance-System/network/members"> <img src="https://img.shields.io/github/forks/adilraj786/Advance-Attendance-System?style=flat-square" alt="GitHub Forks"/> </a> </p>
 ---
 
 ### 📌 Table of Contents
@@ -439,8 +414,25 @@ This project is distributed under the **MIT License**. See the [`LICENSE`](LICEN
 If the repository does not already contain a `LICENSE` file, add the full MIT License text before describing the project as officially MIT-licensed.
 
 ---
+# 👨‍💻 Author
 
 <p align="center">
-  <strong>Advanced Attendance Management System</strong><br>
-  <sub>Designed and developed by <a href="https://github.com/adilraj786">Adil Raj</a></sub>
+  <strong>Adil Raj</strong>
+  <br>
+  Software Engineering Aspirant | Full-Stack Developer | AI & Cybersecurity | Building Scalable Software & Real-World Solutions
+  <br><br>
+  <a href="https://github.com/adilraj786">
+    <img src="https://img.shields.io/badge/GitHub-adilraj786-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
+
+<p align="center">
+  <sub>Building practical software solutions with modern web technologies.</sub>
+</p>
+
+---
+
+<p align="center">
+  <strong>© MIT 2026 Adil Raj</strong>
+  <br>
 </p>
