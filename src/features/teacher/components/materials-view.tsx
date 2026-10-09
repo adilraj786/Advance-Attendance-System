@@ -208,7 +208,7 @@ export function MaterialsView() {
 
       <div className={isTeacherOrAdmin ? "grid gap-6 lg:grid-cols-[minmax(0,380px)_minmax(0,1fr)]" : "space-y-6"}>
         {isTeacherOrAdmin && (
-          <Panel title="Upload Course Material" description="Preset: Stores-Images · Cloud: dbe7l7wof">
+          <Panel title="Upload Course Material" description="Upload lecture notes, question banks, lab sheets, and assignments">
             <div className="space-y-4">
               <label className="flex cursor-pointer flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-border bg-card/40 p-6 text-center transition-all hover:border-accent hover:bg-accent/5">
                 <div className="grid h-10 w-10 place-items-center rounded-xl bg-accent/15 text-accent font-bold">

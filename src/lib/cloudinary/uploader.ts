@@ -1,12 +1,12 @@
 /**
  * Cloudinary File Uploader for Course Materials & Study Documents
- * Cloud: dbe7l7wof | Preset: Stores-Images | API Key: 953679355231386
+ * Replace with your own Cloudinary Credentials or configure via .env
  */
 
-const DEFAULT_CLOUD_NAME = "dbe7l7wof";
-const DEFAULT_PRESET = "Stores-Images";
-const DEFAULT_API_KEY = "953679355231386";
-const DEFAULT_API_SECRET = "kX3buVGaHhhk41cBWJCqBxKoOD4";
+const DEFAULT_CLOUD_NAME = "ADD_YOUR_OWN_CLOUDINARY_CLOUD_NAME";
+const DEFAULT_PRESET = "ADD_YOUR_OWN_CLOUDINARY_UPLOAD_PRESET";
+const DEFAULT_API_KEY = "ADD_YOUR_OWN_CLOUDINARY_API_KEY";
+const DEFAULT_API_SECRET = "ADD_YOUR_OWN_CLOUDINARY_API_SECRET";
 
 async function computeSha1(message: string): Promise<string> {
   const encoder = new TextEncoder();
