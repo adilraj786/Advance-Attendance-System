@@ -47,41 +47,6 @@
 * 🚢 [Production Deployment](#-production-deployment)
 * 🤝 [Contributing](#-contributing--code-standards)
 * 📄 [License](#-license)
-
----
-# 🎓 Advanced Attendance Management System
-
-### Enterprise-Grade Campus Attendance & Academic Intelligence Platform
-
-[![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.2.1-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white)](https://tailwindcss.com/)
-[![Firebase](https://img.shields.io/badge/Firebase-Firestore_&_Auth-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)](https://firebase.google.com/)
-[![TanStack Router](https://img.shields.io/badge/TanStack_Router-1.170-FF4154?style=for-the-badge\&logo=reactquery\&logoColor=white)](https://tanstack.com/router)
-[![Vite](https://img.shields.io/badge/Vite-8.2.0-646CFF?style=for-the-badge\&logo=vite\&logoColor=white)](https://vite.dev/)
-[![Cloudinary](https://img.shields.io/badge/Cloudinary-Media_Storage-3448C5?style=for-the-badge\&logo=cloudinary\&logoColor=white)](https://cloudinary.com/)
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge\&logo=opensourceinitiative\&logoColor=white)](LICENSE)
-
----
-
-## 📌 Table of Contents
-
-* [Executive Overview](#-executive-overview)
-* [System Architecture](#-system-architecture)
-* [Comprehensive Directory Structure](#-comprehensive-directory-structure)
-* [API Keys, Secrets & Configuration](#-api-keys-secrets--configuration-guide)
-
-  * [Firebase Integration](#1-firebase-database--authentication)
-  * [Cloudinary Integration](#2-cloudinary-media--document-storage)
-  * [Environment Variables](#3-environment-variables-setup)
-* [Role-Based Access Control](#-role-based-access-control-rbac)
-* [Key Engineering Highlights](#-key-engineering-highlights)
-* [Local Setup & Quickstart](#-local-setup--quickstart)
-* [Firestore Schema](#-firestore-schema--data-collections)
-* [Production Deployment](#-production-deployment)
-* [Contributing](#-contributing--code-standards)
-* [License](#-license)
-
 ---
 
 ## 🏛 Executive Overview
