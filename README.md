@@ -40,7 +40,6 @@
 * ⚡ [Key Engineering Highlights](#-key-engineering-highlights)
 * 🚀 [Local Setup](#-local-setup--quickstart)
 * 🗄️ [Firestore Schema](#-firestore-schema--data-collections)
-* 🚢 [Production Deployment](#-production-deployment)
 * 🤝 [Contributing](#-contributing--code-standards)
 * 📄 [License](#-license)
 
@@ -389,29 +388,6 @@ The following collections are referenced in the supplied project outline.
 | `live_session`       | `slotId`, `subject`, `room`, `token`, `secondsRemaining`, `active`                              | Active attendance sessions |
 
 *Verify collection names and fields against your actual Firestore implementation.*
-
----
-
-## 🚢 Production Deployment
-
-### Deploying to Vercel or Netlify
-
-1. Push the project to your GitHub repository.
-2. Import the repository into [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
-3. Configure the build command as `npm run build`.
-4. Set the output directory to `dist`.
-5. Add the required client-side environment variables in the deployment settings.
-6. Verify Firebase Authentication domains, Firestore security rules, and Cloudinary upload restrictions.
-7. Deploy and test the application on desktop and mobile devices.
-
-### Production Security Checklist
-
-* [ ] Apply least-privilege Firestore security rules.
-* [ ] Validate attendance sessions and QR expiry.
-* [ ] Prevent reuse of expired or previously accepted QR tokens.
-* [ ] Restrict administrative operations to authorized roles.
-* [ ] Avoid storing private credentials in frontend environment variables.
-* [ ] Test authorization rules before handling real student records.
 
 ---
 
